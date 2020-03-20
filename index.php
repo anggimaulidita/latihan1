@@ -5,8 +5,8 @@
     </tittle>
 </head>
 <body>
-    <h1>
-        Selamat datang <?php echo "masukkan nama anda";?>
-    </h1>
+    <?php
+    echo "<h1>Selamat datang, Nama Anda</h1>";
+    ?>
 </body>
 </html>
