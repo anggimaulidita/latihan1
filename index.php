@@ -1,10 +1,8 @@
 <?php
-Operator Aritmatika
-$x = 10;
-$y = 20;
-    echo $x + $y ;
-    echo $x - $y ;
-    echo $x * $y ;
-    echo $x / $y ;
-    echo $x % $y ;
+
+$nama_depan ="Anggi" ;
+$nama_belakang ="Khusnurida" ;
+
+echo $nama_depan . "" . $nama_belakang; 
+
 ?>
