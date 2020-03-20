@@ -1,8 +1,23 @@
 <?php
 
-$nama_depan ="Anggi" ;
-$nama_belakang ="Khusnurida" ;
+$x = 10;
+$x += 2;
+    echo $x "</br>"
 
-echo $nama_depan . "" . $nama_belakang; 
+$y = 15;
+$y -=5
+    echo $y "</br>"
+
+$y = 10;
+$y /= 2;
+    echo $y "</br>"
+
+$y = 20;
+$y %= 4;
+    echo $y "</br>"
+
+$y = 30;
+$y .= 10;
+    echo $y "</br>"
 
 ?>
