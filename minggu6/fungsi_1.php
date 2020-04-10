@@ -13,6 +13,6 @@ function salam($waktu, $nama)
 		<title>Latihan Function</title>
 </head>
 <body>
-	<h1><?= salam("Pagi", "Eka") ?></h1>
+	<h1><?= salam("Pagi", "Anggi") ?></h1>
 </body>
 </html>
