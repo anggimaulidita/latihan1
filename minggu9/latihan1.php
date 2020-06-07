@@ -29,9 +29,11 @@ $film = [
 <ul>
     <?php foreach ($film as $fi): ?>
     <li> 
-        <a href="latihan2.php"><?= $fi["judul"]; ?> </a>
-    </li>
-    <?php endforeach; ?>
- </ul>
+        <a href="latihan2.php?judul=<?= $fi["judul"]; ?>&genre= <?= $fi["genre"]; ?>& 
+        sutradara=<?= $fi["sutradara"]; ?>&durasi=<?= $fi["durasi"]; ?>&gambar=<?= 
+        $fi["gambar"]; ?>"><?= $fi["judul"]; ?></a>
+    </li> <?php endforeach; ?> </ul>
+    
 </body>
+
 </html>
