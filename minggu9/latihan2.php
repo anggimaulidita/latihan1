@@ -1,3 +1,11 @@
+<?php
+// cek apakah $_Get terdapat data?
+if (!isset($_GET["judul"])) {
+    //redirect
+    header("Location: latihan1.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +15,7 @@
 </head>
 
 <body>
+    <h1>Detail Film</h1>
 <ul>
     <li><img src="img/<?= $_GET["gambar"]; ?>"></li>
     <li><?= $_GET["judul"]; ?></li>
